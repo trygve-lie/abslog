@@ -94,7 +94,7 @@ tap.test('utils.validateMethod() - value for "method" attribute is not a functio
  * utils.validateLogger()
  */
 
- tap.test('utils.validateLogger() - logger is compliant - should return "true"', (t) => {
+tap.test('utils.validateLogger() - logger is compliant - should return "true"', (t) => {
     t.true(utils.validateLogger(Object.create(utils.noopLogger)));
     t.true(utils.validateLogger(Object.create(utils.consoleLogger)));
     t.end();
