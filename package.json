@@ -1,0 +1,39 @@
+{
+  "name": "abslog",
+  "version": "1.0.0",
+  "description": "Abstract logger",
+  "main": "lib/log.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "tap test/*.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/trygve-lie/ttl-mem-cache.git"
+  },
+  "keywords": [
+    "logging",
+    "logger",
+    "log"
+  ],
+  "author": "Trygve Lie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trygve-lie/ttl-mem-cache/issues"
+  },
+  "homepage": "https://github.com/trygve-lie/ttl-mem-cache#readme",
+  "devDependencies": {
+    "eslint": "4.11.0",
+    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-plugin-import": "2.8.0",
+    "bunyan": "^1.8.12",
+    "tap": "10.7.3"
+  },
+  "dependencies": {
+    "pino": "^4.10.2"
+  }
+}
