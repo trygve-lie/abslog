@@ -1,7 +1,7 @@
 {
   "name": "abslog",
   "version": "1.0.0",
-  "description": "Abstract logger",
+  "description": "An abstract logger - Enables adding logging to modules without adding a dependency to a full log library.  ",
   "main": "lib/log.js",
   "directories": {
     "lib": "lib"
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/trygve-lie/ttl-mem-cache.git"
+    "url": "git@github.com:trygve-lie/abslog.git"
   },
   "keywords": [
     "logging",
@@ -23,17 +23,15 @@
   "author": "Trygve Lie",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/trygve-lie/ttl-mem-cache/issues"
+    "url": "https://github.com/trygve-lie/abslog/issues"
   },
-  "homepage": "https://github.com/trygve-lie/ttl-mem-cache#readme",
+  "homepage": "https://github.com/trygve-lie/abslog#readme",
   "devDependencies": {
+    "tap": "10.7.3",
     "eslint": "4.11.0",
     "eslint-config-airbnb-base": "12.1.0",
     "eslint-plugin-import": "2.8.0",
     "bunyan": "^1.8.12",
-    "tap": "10.7.3"
-  },
-  "dependencies": {
     "pino": "^4.10.2"
   }
 }
