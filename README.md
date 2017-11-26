@@ -45,14 +45,17 @@ awesome.doStuff()  // will now log on info
 
 ## Interface
 
-`abslog` takes one argument. If the argument is not provided an object with all
-log4j interface compatible methods will be returned where each method are just
-`noop` methods. In other words, if a logger is not provided, no log output will
-be emitted.
+`abslog` takes one argument. It takes an logger expected to be log4j interface
+compatible.
 
-If the argument is provided a compatilbe logger, the logger will be returned.
+If no logger is provided an object with log methods will be returned. Each of
+these method are just `noop` methods adding minimal footprint and performance impact
+on your module.
 
-If the argument is provided but the logger is not compatible with the log4j interface
+If a logger is provided, the logger will be returned. This leaves `abslog` adding
+zero runtime footprint and performance impact on your module.
+
+If an logger is provided but the logger is not compatible with the log4j interface,
 an exception will be thrown.
 
 
@@ -84,9 +87,9 @@ log.trace('trace message');
 
 ## console.log
 
-`Console` is not log4j, but `abslog` does support `Console` for logging. Its worth
-noticing that its not recommended to use `Console` for logging in production code,
-but it can be handy to just plug in `Console` to get log output in development.
+`Console` is not log4j compatible, but `abslog` does support `Console` for logging.
+Its worth noticing that its not recommended to use `Console` for logging in production
+code, but it can be handy to just plug in `Console` to get log output in development.
 
 Example:
 
@@ -183,8 +186,6 @@ const logger = winston.createLogger({
 const log = abslog(logger);
 log.info('hello');
 ```
-
-### debug
 
 
 ## License
