@@ -109,10 +109,10 @@ These loggers are known to be compatible and tested:
 
 ```js
 const abslog = require('abslog');
-const pino = require('pino)();
+const pino = require('pino')();
 
 const log = abslog(pino);
-log.info('hello);
+log.info('hello');
 ```
 
 ### bunyan
@@ -130,7 +130,7 @@ const logger = bunyan.createLogger({
 });
 
 const log = abslog(logger);
-log.info('hello);
+log.info('hello');
 ```
 
 ### log4js
@@ -144,7 +144,7 @@ const log4js = require('log4js');
 const logger = log4js.getLogger();
 
 const log = abslog(logger);
-log.info('hello);
+log.info('hello');
 ```
 
 ### winston
@@ -181,7 +181,7 @@ const logger = winston.createLogger({
 });
 
 const log = abslog(logger);
-log.info('hello);
+log.info('hello');
 ```
 
 ### debug
