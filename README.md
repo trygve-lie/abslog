@@ -36,7 +36,7 @@ The consumer of your module, using pino as logger:
 
 ```js
 const AwesomeModule = require('AwesomeModule');
-const pino = require('pino)();
+const pino = require('pino')();
 
 const awesome = new AwesomeModule(pino);
 awesome.doStuff()  // will now log on info
