@@ -33,36 +33,6 @@ tap.test('utils.consoleLogger - Object - should have "fatal", "error", "warn", "
     t.end();
 });
 
-tap.test('utils.consoleLogger.fatal() - should equal to console.log()', (t) => {
-    t.equals(utils.consoleLogger.fatal, console.log);
-    t.end();
-});
-
-tap.test('utils.consoleLogger.error() - should equal to console.error()', (t) => {
-    t.equals(utils.consoleLogger.error, console.error);
-    t.end();
-});
-
-tap.test('utils.consoleLogger.warn() - should equal to console.warn()', (t) => {
-    t.equals(utils.consoleLogger.warn, console.warn);
-    t.end();
-});
-
-tap.test('utils.consoleLogger.info() - should equal to console.info()', (t) => {
-    t.equals(utils.consoleLogger.info, console.info);
-    t.end();
-});
-
-tap.test('utils.consoleLogger.debug() - should equal to console.debug()', (t) => {
-    t.equals(utils.consoleLogger.debug, console.debug);
-    t.end();
-});
-
-tap.test('utils.consoleLogger.trace() - should equal to console.trace()', (t) => {
-    t.equals(utils.consoleLogger.trace, console.trace);
-    t.end();
-});
-
 /**
  * utils.validateMethod()
  */

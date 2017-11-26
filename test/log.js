@@ -39,12 +39,9 @@ tap.test('log() - set compatible logger - should return set logger', (t) => {
 
 tap.test('log() - console set - should return console', (t) => {
     const l = log(console);
-    t.equals(l.fatal, console.log);
     t.equals(l.error, console.error);
     t.equals(l.warn, console.warn);
     t.equals(l.info, console.info);
-    t.equals(l.debug, console.debug);
-    t.equals(l.trace, console.trace);
     t.end();
 });
 
