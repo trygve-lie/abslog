@@ -1,7 +1,6 @@
 'use strict';
 
 const Transport = require('winston-transport');
-// const helpers = require('./helpers');
 const winston = require('winston');
 const log = require('../lib/log');
 const tap = require('tap');
