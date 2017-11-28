@@ -16,6 +16,12 @@
     "url": "git@github.com:trygve-lie/abslog.git"
   },
   "keywords": [
+    "loggerinterface",
+    "loggerabstraction",
+    "winston",
+    "bunyan",
+    "pino",
+    "log4js",
     "logging",
     "logger",
     "log"
