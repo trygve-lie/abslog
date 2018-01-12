@@ -33,13 +33,13 @@
   },
   "homepage": "https://github.com/trygve-lie/abslog#readme",
   "devDependencies": {
-    "tap": "11.0.0",
-    "eslint": "4.12.0",
+    "tap": "11.0.1",
+    "eslint": "4.15.0",
     "eslint-config-airbnb-base": "12.1.0",
     "eslint-plugin-import": "2.8.0",
     "winston": "^3.0.0-rc1",
-    "log4js": "^2.3.12",
+    "log4js": "^2.4.1",
     "bunyan": "^1.8.12",
-    "pino": "^4.10.2"
+    "pino": "^4.10.3"
   }
 }
