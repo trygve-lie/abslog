@@ -1,23 +1,10 @@
 'use strict';
 
+const NoopLog = require('nooplog');
 const utils = require('../lib/utils');
 const tap = require('tap');
 
 function noop() {}
-
-/**
- * utils.noopLogger
- */
-
-tap.test('utils.noopLogger - Object - should have "fatal", "error", "warn", "info", "debug" and "trace" methods', (t) => {
-    t.true(utils.validateMethod(utils.noopLogger.fatal));
-    t.true(utils.validateMethod(utils.noopLogger.error));
-    t.true(utils.validateMethod(utils.noopLogger.warn));
-    t.true(utils.validateMethod(utils.noopLogger.info));
-    t.true(utils.validateMethod(utils.noopLogger.debug));
-    t.true(utils.validateMethod(utils.noopLogger.trace));
-    t.end();
-});
 
 /**
  * utils.consoleLogger
@@ -65,7 +52,7 @@ tap.test('utils.validateMethod() - value for "method" attribute is not a functio
  */
 
 tap.test('utils.validateLogger() - logger is compliant - should return "true"', (t) => {
-    t.true(utils.validateLogger(Object.create(utils.noopLogger)));
+    t.true(utils.validateLogger(new NoopLog()));
     t.true(utils.validateLogger(Object.create(utils.consoleLogger)));
     t.end();
 });
