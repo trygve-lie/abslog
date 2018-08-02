@@ -38,11 +38,11 @@
     "eslint-config-airbnb-base": "^13.0.0",
     "eslint-plugin-import": "^2.13.0",
     "winston": "^3.0.0",
-    "log4js": "^3.0.3",
+    "log4js": "^3.0.4",
     "bunyan": "^1.8.12",
     "pino": "^4.17.6"
   },
   "dependencies": {
-    "nooplog": "^1.0.0"
+    "nooplog": "^1.0.2"
   }
 }
