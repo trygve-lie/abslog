@@ -1,9 +1,9 @@
 'use strict';
 
-const helpers = require('./helpers');
 const bunyan = require('bunyan');
-const log = require('../lib/log');
 const tap = require('tap');
+const helpers = require('./helpers');
+const log = require('../lib/log');
 
 tap.test('pino() - set bunyan as logger - should return bunyan', (t) => {
     const bunyanLogger = bunyan.createLogger({

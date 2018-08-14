@@ -2,8 +2,8 @@
 
 const Transport = require('winston-transport');
 const winston = require('winston');
-const log = require('../lib/log');
 const tap = require('tap');
+const log = require('../lib/log');
 
 const winstonCustomLevels = {
     levels: {

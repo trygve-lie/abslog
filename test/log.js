@@ -1,8 +1,8 @@
 'use strict';
 
+const tap = require('tap');
 const utils = require('../lib/utils');
 const log = require('../lib/log');
-const tap = require('tap');
 
 function noop() {}
 
