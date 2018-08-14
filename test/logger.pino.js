@@ -1,9 +1,9 @@
 'use strict';
 
-const helpers = require('./helpers');
 const pino = require('pino');
-const log = require('../lib/log');
 const tap = require('tap');
+const helpers = require('./helpers');
+const log = require('../lib/log');
 
 tap.test('pino() - set pino as logger - should return pino', (t) => {
     const pinoLogger = pino(helpers.nullStream());
