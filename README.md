@@ -1,6 +1,6 @@
 # abslog
 
-[![Dependencies](https://img.shields.io/david/trygve-lie/abslog.svg?style=flat-square)](https://david-dm.org/trygve-lie/abslog)[![Build Status](http://img.shields.io/travis/trygve-lie/abslog/master.svg?style=flat-square)](https://travis-ci.org/trygve-lie/abslog)
+[![Dependencies](https://img.shields.io/david/trygve-lie/abslog.svg?style=flat-square)](https://david-dm.org/trygve-lie/abslog)[![Build Status](http://img.shields.io/travis/trygve-lie/abslog/master.svg?style=flat-square)](https://travis-ci.org/trygve-lie/abslog) [![Greenkeeper badge](https://badges.greenkeeper.io/trygve-lie/abslog.svg)](https://greenkeeper.io/)
 
 An abstract logger - Enables adding logging to modules without adding a dependency to a full log library. This way, the consumer of your modules can plug in their own log library of choice.
 
