@@ -40,7 +40,8 @@
     "winston": "^3.0.0",
     "log4js": "^3.0.5",
     "bunyan": "^1.8.12",
-    "pino": "^5.0.5"
+    "pino": "^5.0.5",
+    "roarr": "^2.11.2"
   },
   "dependencies": {
     "nooplog": "^1.0.2"

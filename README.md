@@ -187,6 +187,18 @@ const log = abslog(logger);
 log.info('hello');
 ```
 
+### roarr
+
+[roarr](https://github.com/gajus/roarr) is found to be compatible.
+
+```js
+const abslog = require('abslog');
+const roarr = require('roarr').default
+
+const log = abslog(roarr);
+log.info('hello');
+```
+
 
 ## License
 

@@ -12,7 +12,7 @@ tap.test('pino() - set pino as logger - should return pino', (t) => {
     t.end();
 });
 
-tap.test('pino() - log message - bunyan should log message', (t) => {
+tap.test('pino() - log message - pino should log message', (t) => {
     const out = helpers.testStream((chunk) => {
         const msg = JSON.parse(chunk.toString());
         t.equals(msg.msg, 'hello');
