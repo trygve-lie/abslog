@@ -41,7 +41,8 @@
     "log4js": "^3.0.5",
     "bunyan": "^1.8.12",
     "pino": "^5.7.0",
-    "roarr": "^2.11.2"
+    "roarr": "^2.11.2",
+    "synclog": "^1.0.1"
   },
   "dependencies": {
     "nooplog": "^1.0.2"
