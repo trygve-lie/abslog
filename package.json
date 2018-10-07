@@ -1,6 +1,6 @@
 {
   "name": "abslog",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "description": "An abstract logger - Enables adding logging to modules without adding a dependency to a full log library.  ",
   "main": "lib/log.js",
   "directories": {
@@ -22,6 +22,8 @@
     "bunyan",
     "pino",
     "log4js",
+    "roarr",
+    "synclog",
     "logging",
     "logger",
     "log"
