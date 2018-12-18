@@ -6,7 +6,7 @@ const helpers = require('./helpers');
 const log = require('../lib/log');
 
 tap.test('pino() - set pino as logger - should return pino', (t) => {
-    const pinoLogger = pino(helpers.nullStream());
+    const pinoLogger = pino(helpers.testStream());
     const logger = log(pinoLogger);
     t.equals(logger, pinoLogger);
     t.end();
