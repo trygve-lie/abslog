@@ -8,7 +8,7 @@ const log = require('../lib/log');
 tap.test('pino() - set bunyan as logger - should return bunyan', (t) => {
     const bunyanLogger = bunyan.createLogger({
         name: 'test',
-        stream: helpers.nullStream(),
+        stream: helpers.testStream(),
         level: 'trace'
     });
 
