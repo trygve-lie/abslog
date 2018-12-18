@@ -3,9 +3,9 @@
   "version": "2.2.2",
   "description": "An abstract logger - Enables adding logging to modules without adding a dependency to a full log library.  ",
   "main": "lib/log.js",
-  "directories": {
-    "lib": "lib"
-  },
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "test": "tap test/*.js",
     "lint": "eslint .",
@@ -44,6 +44,7 @@
     "bunyan": "^1.8.12",
     "pino": "^5.7.0",
     "roarr": "^2.11.2",
+    "logdna": "^2.1.1",
     "synclog": "^1.0.1"
   },
   "dependencies": {

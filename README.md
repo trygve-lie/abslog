@@ -214,6 +214,18 @@ const log = abslog(new SyncLog('debug'));
 log.info('hello');
 ```
 
+### LogDna
+
+[LogDna](https://www.npmjs.com/package/logdna) is found to be compatible.
+
+```js
+const abslog = require('abslog');
+const LogDna = require('logDna')
+
+const log = abslog(Logdna.createLogger('some_api_key_goes_here', {}));
+log.info('hello');
+```
+
 
 ## License
 
