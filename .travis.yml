@@ -12,7 +12,7 @@ os:
   - windows
 
 install:
-  - npm install --ignore-scripts
+  - npm install
 
 script:
   - npm test
