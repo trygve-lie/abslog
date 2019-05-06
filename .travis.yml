@@ -1,10 +1,9 @@
 language: node_js
 
 node_js:
-  - "12"
-  - "10"
-  - "8"
-  - "6"
+  - '12'
+  - '10'
+  - '8'
 
 os:
   - linux
@@ -12,7 +11,7 @@ os:
   - windows
 
 install:
-  - npm install
+  - npm install --ignore-scripts
 
 script:
   - npm test
@@ -41,10 +40,6 @@ jobs:
       node_js: '8'
       if: type = cron
       env: NVM_NODEJS_ORG_MIRROR=https://nodejs.org/download/nightly/
-    -
-      node_js: '6'
-      if: type = cron
-      env: NVM_NODEJS_ORG_MIRROR=https://nodejs.org/download/nightly/
 
     # Release Candidates
     -
@@ -63,10 +58,7 @@ jobs:
       node_js: '8'
       if: type = cron
       env: NVM_NODEJS_ORG_MIRROR=https://nodejs.org/download/rc/
-    -
-      node_js: '6'
-      if: type = cron
-      env: NVM_NODEJS_ORG_MIRROR=https://nodejs.org/download/rc/
+
 
 notifications:
   email:
