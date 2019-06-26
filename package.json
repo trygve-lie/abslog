@@ -41,7 +41,7 @@
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.13.0",
     "winston": "3.1.0",
-    "log4js": "4.3.2",
+    "log4js": "4.4.0",
     "bunyan": "1.8.12",
     "pino": "5.12.6",
     "roarr": "2.13.1",
