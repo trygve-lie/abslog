@@ -38,7 +38,7 @@
   "devDependencies": {
     "tap": "^14.1.9",
     "eslint": "^6.0.0",
-    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.13.0",
     "winston": "3.1.0",
     "log4js": "5.0.0",
