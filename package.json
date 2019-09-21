@@ -45,7 +45,7 @@
     "bunyan": "1.8.12",
     "pino": "5.13.3",
     "roarr": "2.14.1",
-    "logdna": "3.2.1",
+    "logdna": "3.3.3",
     "synclog": "1.0.1"
   },
   "dependencies": {
