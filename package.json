@@ -46,7 +46,7 @@
     "pino": "5.16.0",
     "roarr": "2.14.5",
 
-    "logdna": "3.4.0",
+    "logdna": "3.5.0",
     "synclog": "1.0.1"
   },
   "dependencies": {
