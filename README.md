@@ -2,7 +2,6 @@
 
 [![Dependencies](https://img.shields.io/david/trygve-lie/abslog.svg?style=flat-square)](https://david-dm.org/trygve-lie/abslog)
 [![GitHub Actions status](https://github.com/trygve-lie/abslog/workflows/Run%20Lint%20and%20Tests/badge.svg)](https://github.com/trygve-lie/abslog/actions?query=workflow%3A%22Run+Lint+and+Tests%22)
-[![Greenkeeper badge](https://badges.greenkeeper.io/trygve-lie/abslog.svg?style=flat-square)](https://greenkeeper.io/)
 [![Known Vulnerabilities](https://snyk.io/test/github/trygve-lie/abslog/badge.svg?targetFile=package.json&style=flat-square)](https://snyk.io/test/github/trygve-lie/abslog?targetFile=package.json)
 
 An abstract logger - Enables adding logging to modules without adding a dependency to a full log library. This way, the consumer of your modules can plug in their own log library of choice.
