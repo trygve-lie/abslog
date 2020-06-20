@@ -35,7 +35,7 @@ tap.test('winston() - set winston as logger - should return winston', (t) => {
 });
 
 tap.test('winston() - log message - winston should log message', (t) => {
-    class testStream extends Transport {
+    class TestStream extends Transport {
         log(info, callback) {
             callback();
             t.equals(info.message, 'hello');
@@ -46,7 +46,7 @@ tap.test('winston() - log message - winston should log message', (t) => {
     const winstonLogger = winston.createLogger({
         levels: winstonCustomLevels.levels,
         transports: [
-            new testStream()
+            new TestStream()
         ]
     });
 
