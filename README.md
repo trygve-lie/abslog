@@ -1,7 +1,7 @@
 # abslog
 
 [![Dependencies](https://img.shields.io/david/trygve-lie/abslog.svg?style=flat-square)](https://david-dm.org/trygve-lie/abslog)
-[![Build Status](http://img.shields.io/travis/trygve-lie/abslog/master.svg?style=flat-square)](https://travis-ci.org/trygve-lie/abslog)
+[![GitHub Actions status](https://github.com/trygve-lie/abslog/workflows/Run%20Lint%20and%20Tests/badge.svg)](https://github.com/trygve-lie/abslog/actions?query=workflow%3A%22Run+Lint+and+Tests%22)
 [![Greenkeeper badge](https://badges.greenkeeper.io/trygve-lie/abslog.svg?style=flat-square)](https://greenkeeper.io/)
 [![Known Vulnerabilities](https://snyk.io/test/github/trygve-lie/abslog/badge.svg?targetFile=package.json&style=flat-square)](https://snyk.io/test/github/trygve-lie/abslog?targetFile=package.json)
 
