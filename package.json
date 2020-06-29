@@ -45,7 +45,7 @@
     "prettier": "2.0.5",
     "winston": "3.3.0",
     "log4js": "6.3.0",
-    "bunyan": "1.8.12",
+    "bunyan": "1.8.14",
     "pino": "6.3.2",
     "roarr": "2.15.3",
     "logdna": "3.5.0",
