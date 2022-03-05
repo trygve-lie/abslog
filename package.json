@@ -36,7 +36,7 @@
   },
   "homepage": "https://github.com/trygve-lie/abslog#readme",
   "devDependencies": {
-    "tap": "14.11.0",
+    "tap": "15.2.2",
     "eslint": "7.32.0",
     "eslint-config-airbnb-base": "14.2.1",
     "eslint-config-prettier": "6.15.0",
