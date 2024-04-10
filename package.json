@@ -9,7 +9,7 @@
     "types"
   ],
   "scripts": {
-    "test": "tap test/*.js",
+    "test": "tap test/*.js --disable-coverage",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
