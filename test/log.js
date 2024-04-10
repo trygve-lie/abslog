@@ -8,12 +8,12 @@ function noop() {}
 
 tap.test('log() - no logger set - should return noop logger', (t) => {
     const l = log();
-    t.true(utils.validateMethod(l.fatal));
-    t.true(utils.validateMethod(l.error));
-    t.true(utils.validateMethod(l.warn));
-    t.true(utils.validateMethod(l.info));
-    t.true(utils.validateMethod(l.debug));
-    t.true(utils.validateMethod(l.trace));
+    t.ok(utils.validateMethod(l.fatal));
+    t.ok(utils.validateMethod(l.error));
+    t.ok(utils.validateMethod(l.warn));
+    t.ok(utils.validateMethod(l.info));
+    t.ok(utils.validateMethod(l.debug));
+    t.ok(utils.validateMethod(l.trace));
     t.end();
 });
 
@@ -28,20 +28,20 @@ tap.test('log() - set compatible logger - should return set logger', (t) => {
     };
 
     const l = log(logger);
-    t.equals(l.fatal, logger.fatal);
-    t.equals(l.error, logger.error);
-    t.equals(l.warn, logger.warn);
-    t.equals(l.info, logger.info);
-    t.equals(l.debug, logger.debug);
-    t.equals(l.trace, logger.trace);
+    t.equal(l.fatal, logger.fatal);
+    t.equal(l.error, logger.error);
+    t.equal(l.warn, logger.warn);
+    t.equal(l.info, logger.info);
+    t.equal(l.debug, logger.debug);
+    t.equal(l.trace, logger.trace);
     t.end();
 });
 
 tap.test('log() - console set - should return console', (t) => {
     const l = log(console);
-    t.equals(l.error, console.error);
-    t.equals(l.warn, console.warn);
-    t.equals(l.info, console.info);
+    t.equal(l.error, console.error);
+    t.equal(l.warn, console.warn);
+    t.equal(l.info, console.info);
     t.end();
 });
 

@@ -14,14 +14,14 @@ tap.test('pino() - set bunyan as logger - should return bunyan', (t) => {
 
     const logger = log(bunyanLogger);
 
-    t.equals(logger, bunyanLogger);
+    t.equal(logger, bunyanLogger);
     t.end();
 });
 
 tap.test('bunyan() - log message - bunyan should log message', (t) => {
     const out = helpers.testStream((chunk) => {
         const msg = JSON.parse(chunk.toString());
-        t.equals(msg.msg, 'hello');
+        t.equal(msg.msg, 'hello');
         t.end();
     });
 

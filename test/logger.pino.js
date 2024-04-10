@@ -8,14 +8,14 @@ const log = require('../lib/log');
 tap.test('pino() - set pino as logger - should return pino', (t) => {
     const pinoLogger = pino(helpers.testStream());
     const logger = log(pinoLogger);
-    t.equals(logger, pinoLogger);
+    t.equal(logger, pinoLogger);
     t.end();
 });
 
 tap.test('pino() - log message - pino should log message', (t) => {
     const out = helpers.testStream((chunk) => {
         const msg = JSON.parse(chunk.toString());
-        t.equals(msg.msg, 'hello');
+        t.equal(msg.msg, 'hello');
         t.end();
     });
 
