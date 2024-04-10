@@ -7,6 +7,6 @@ const log = require('../lib/log');
 tap.test('synclog() - set synclog as logger - should return synclog', (t) => {
     const synclog = new SyncLog('debug');
     const logger = log(synclog);
-    t.equals(logger, synclog);
+    t.equal(logger, synclog);
     t.end();
 });

@@ -6,6 +6,6 @@ const log = require('../lib/log');
 
 tap.test('roarr() - set roarr as logger - should return roarr', (t) => {
     const logger = log(roarr);
-    t.equals(logger, roarr);
+    t.equal(logger, roarr);
     t.end();
 });

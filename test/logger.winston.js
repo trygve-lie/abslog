@@ -30,7 +30,7 @@ tap.test('winston() - set winston as logger - should return winston', (t) => {
     });
 
     const logger = log(winstonLogger);
-    t.equals(logger, winstonLogger);
+    t.equal(logger, winstonLogger);
     t.end();
 });
 
@@ -38,7 +38,7 @@ tap.test('winston() - log message - winston should log message', (t) => {
     class TestStream extends Transport {
         log(info, callback) {
             callback();
-            t.equals(info.message, 'hello');
+            t.equal(info.message, 'hello');
             t.end();
         }
     }

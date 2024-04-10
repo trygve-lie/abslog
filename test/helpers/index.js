@@ -2,8 +2,7 @@
 
 const stream = require('stream');
 
-module.exports.testStream = (onChunk) => {
-    return new stream.Writable({
+module.exports.testStream = (onChunk) => new stream.Writable({
         objectMode: false,
         write(chunk, encoding, callback) {
             if (onChunk) {
@@ -12,4 +11,3 @@ module.exports.testStream = (onChunk) => {
             callback();
         }
     });
-};

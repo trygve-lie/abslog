@@ -8,7 +8,7 @@ const log = require('../lib/log');
 tap.test('log4js() - set pino as logger - should return log4js', (t) => {
     const log4jsLogger = log4js.getLogger();
     const logger = log(log4jsLogger);
-    t.equals(logger, log4jsLogger);
+    t.equal(logger, log4jsLogger);
     t.end();
 });
 
@@ -25,6 +25,6 @@ tap.test('log4js() - log message - log4js should log message', (t) => {
 
     const events = recording.replay();
 
-    t.equals(events[0].data[0], 'hello');
+    t.equal(events[0].data[0], 'hello');
     t.end();
 });
