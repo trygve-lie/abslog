@@ -1,6 +1,6 @@
 {
   "name": "abslog",
-  "version": "2.4.1",
+  "version": "2.4.2",
   "description": "An abstract logger - Enables adding logging to modules without adding a dependency to a full log library.  ",
   "main": "lib/log.js",
   "types": "types/log.d.ts",
