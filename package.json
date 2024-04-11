@@ -9,7 +9,9 @@
     "types"
   ],
   "scripts": {
+    "prepublish": "npm run types",
     "test": "tap test/*.js --disable-coverage",
+    "types": "tsc",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
@@ -51,7 +53,8 @@
     "pino": "8.20.0",
     "roarr": "4.2.5",
     "logdna": "3.5.3",
-    "synclog": "1.0.1"
+    "synclog": "1.0.1",
+    "typescript": "5.4.5"
   },
   "dependencies": {
     "nooplog": "1.0.2"
