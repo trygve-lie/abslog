@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "lib": ["ES2015"],
+    "module": "node16",
+    "target": "ES2015",
+    "resolveJsonModule": true,
+    "checkJs": true,
+    "allowJs": true,
+    "moduleResolution": "node16",
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "outDir": "types"
+  },
+  "include": ["./lib/**/*.js"]
+}
