@@ -54,7 +54,7 @@
     "roarr": "4.2.5",
     "logdna": "3.5.3",
     "synclog": "1.0.1",
-    "typescript": "5.7.2"
+    "typescript": "5.7.3"
   },
   "dependencies": {
     "nooplog": "1.0.2"
