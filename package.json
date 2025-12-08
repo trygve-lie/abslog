@@ -46,7 +46,7 @@
     "eslint-config-prettier": "9.1.2",
     "eslint-plugin-import": "2.32.0",
     "eslint-plugin-prettier": "5.5.4",
-    "prettier": "3.7.3",
+    "prettier": "3.7.4",
     "winston": "3.18.3",
     "log4js": "6.9.1",
     "bunyan": "1.8.15",
