@@ -51,7 +51,7 @@
     "log4js": "6.9.1",
     "bunyan": "1.8.15",
     "pino": "10.3.0",
-    "roarr": "4.2.5",
+    "roarr": "7.21.4",
     "logdna": "3.5.3",
     "synclog": "1.0.1",
     "typescript": "5.7.3"
